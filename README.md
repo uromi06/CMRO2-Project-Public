@@ -7,7 +7,7 @@
 
 ## Project pipeline
 
-![Overview of pipeline](figures/project_pipeline.png)
+![Overview of pipeline](project_pipeline.png)
 
 **Goal:** Predict CMRO₂ from routinely available MRI (CBV, CBF, T2, T2*).  
 **Preprocess:** Apply group GM mask, resample to `48×64×48`.  
@@ -18,15 +18,15 @@
 
 ## Model architecture
 
-![GAN overview](figures/architecture_gan_overview.png)
-![3D U-Net architecture](figures/architecture_unet.png)
+![GAN overview](architecture_gan_overview.png)
+![3D U-Net architecture](architecture_unet.png)
 
 ---
 
 ## Training curves (example run)
 
-![Epoch-wise generated image sample](figures/Model_training_epoch_35_results.png)
-![All-test scatter (aggregate)](figures/Model_training_epoch_35_results_scatterplot.png)
+![Epoch-wise generated image sample](Model_training_epoch_35_results.png)
+![All-test scatter (aggregate)](Model_training_epoch_35_results_scatterplot.png)
 
 > Figures are **aggregate** only (no subject-level slices).
 
@@ -42,7 +42,7 @@ We evaluate the trained generator under four input configurations:
 - **–CBV & –CBF**
 
 **Aggregate performance (MSE / Pearson):**  
-![Aggregate metrics across phases](figures/case_study_overview_boxplots.png)
+![Aggregate metrics across phases](case_study_overview_boxplots.png)
 
 ---
 
