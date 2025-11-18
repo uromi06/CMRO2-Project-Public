@@ -1,29 +1,28 @@
-# CMRO₂ from Synthetic CBV — research notebook
+ # CMRO₂ from Synthetic CBV — research notebook
 
 > Estimate cerebral metabolic rate of oxygen (CMRO₂) from qMRI inputs (CBV, CBF, T2, T2*) using a 3D U-Net ensemble inside a conditional GAN framework.  
-> **Code only** — no data or trained weights are distributed.
 
 ---
 
-## Project pipeline
+<!-- ## Project pipeline
 
-![Overview of pipeline](project_pipeline.png)
+<!-- [Overview of pipeline](project_pipeline.png)
 
-**Goal:** Predict CMRO₂ from routinely available MRI (CBV, CBF, T2, T2*).  
+<!-- **Goal:** Predict CMRO₂ from routinely available MRI (CBV, CBF, T2, T2*).  
 **Preprocess:** Apply group GM mask, resample to `48×64×48`.  
 **Model:** Generator = ensemble of four 3D U-Nets with residual and attention blocks; Discriminator = 3D CNN with spectral normalization.  
-**Output:** Single-channel CMRO₂ volume.
+**Output:** Single-channel CMRO₂ volume. -->
 
 ---
 
-## Model architecture
+<!-- ## Model architecture
 
-![GAN overview](architecture_gan_overview.png)
-![3D U-Net architecture](architecture_unet.png)
+<!-- [GAN overview](architecture_gan_overview.png)
+<!-- [3D U-Net architecture](architecture_unet.png)
 
 ---
 
-## Training curves (example run)
+<!-- ## Training curves (example run)
 
 ![Epoch-wise generated image sample](Model_training_epoch_35_results.png)
 ![All-test scatter (aggregate)](Model_training_epoch_35_results_scatterplot.png)
@@ -46,7 +45,7 @@ We evaluate the trained generator under four input configurations:
 
 ---
 
-## How to use
+<!-- ## How to use
 
 1. **Environment**
    ```bash
@@ -68,7 +67,7 @@ In the first config cell, set:
 base_path, gm_mask_base_path, gm_mask_filename
 patient_ids (train/test)
 
-No dataset or weights are included. Train on your own data with appropriate permissions.
+No dataset or weights are included. Train on your own data with appropriate permissions. -->
 
 ## Data
 
