@@ -1,8 +1,8 @@
  # CMRO₂ from Synthetic CBV — research notebook
 
-> Estimate cerebral metabolic rate of oxygen (CMRO₂) from qMRI inputs (CBV, CBF, T2, T2*) using a 3D U-Net ensemble inside a conditional GAN framework.  
+> Estimate cerebral metabolic rate of oxygen (CMRO₂) from qMRI inputs (CBV, CBF, T2, T2*) using a 3D U-Net ensemble inside a cGAN framework.  
 
----
+ ---
 
 <!-- ## Project pipeline
 
@@ -13,14 +13,14 @@
 **Model:** Generator = ensemble of four 3D U-Nets with residual and attention blocks; Discriminator = 3D CNN with spectral normalization.  
 **Output:** Single-channel CMRO₂ volume. -->
 
----
+
 
 <!-- ## Model architecture
 
 <!-- [GAN overview](architecture_gan_overview.png)
-<!-- [3D U-Net architecture](architecture_unet.png)
+[3D U-Net architecture](architecture_unet.png) -->
 
----
+
 
 ## Training curves (example run)
 
@@ -65,9 +65,9 @@ We evaluate the trained generator under four input configurations:
 
 In the first config cell, set:
 base_path, gm_mask_base_path, gm_mask_filename
-patient_ids (train/test)
+patient_ids (train/test)  -->
 
-No dataset or weights are included. Train on your own data with appropriate permissions. -->
+No dataset or weights are included. Train on your own data with appropriate permissions.
 
 ## Data
 
