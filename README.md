@@ -24,7 +24,7 @@
 
 ## Training curves (example run)
 
-![Epoch-wise generated image sample]([Model_training_epoch_35_results (1).png](https://github.com/uromi06/CMRO2-Project-Public/blob/b687fbf7c125c041429b5a6ecb617f0d193d05e6/Model_training_epoch_35_results%20(1).png))
+![Epoch-wise generated image sample](https://github.com/uromi06/CMRO2-Project-Public/raw/main/Model_training_epoch_35_results%20(1).png)
 ![All-test scatter (aggregate)](Model_training_epoch_35_results_scatterplot.png)
 
 > Figures are **aggregate** only (no subject-level slices).
