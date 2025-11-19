@@ -24,7 +24,7 @@
 
 ## Training curves (example run)
 
-![Epoch-wise generated image sample](Model_training_epoch_35_results.png)
+![Epoch-wise generated image sample](Model_training_epoch_35_results (1).png)
 ![All-test scatter (aggregate)](Model_training_epoch_35_results_scatterplot.png)
 
 > Figures are **aggregate** only (no subject-level slices).
