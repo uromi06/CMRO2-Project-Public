@@ -22,7 +22,7 @@
 
 ---
 
-<!-- ## Training curves (example run)
+## Training curves (example run)
 
 ![Epoch-wise generated image sample](Model_training_epoch_35_results.png)
 ![All-test scatter (aggregate)](Model_training_epoch_35_results_scatterplot.png)
@@ -31,7 +31,7 @@
 
 ---
 
-## Case-study phases (modality ablations)
+<!-- ## Case-study phases (modality ablations)
 
 We evaluate the trained generator under four input configurations:
 
@@ -41,7 +41,7 @@ We evaluate the trained generator under four input configurations:
 - **–CBV & –CBF**
 
 **Aggregate performance (MSE / Pearson):**  
-![Aggregate metrics across phases](case_study_overview_boxplots.png)
+![Aggregate metrics across phases](case_study_overview_boxplots.png) -->
 
 ---
 
